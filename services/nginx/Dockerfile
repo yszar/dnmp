@@ -25,4 +25,4 @@ run  ln -sf /usr/share/zoneinfo/Asia/Shanghai /etc/localtime \
 
 expose 80
 
-CMD ["/etc/nginx", "-c", "/etc/nginx/nginx.conf", "-g", "daemon off;"]
+CMD ["nginx", "-c", "/etc/nginx/nginx.conf", "-g", "daemon off;"]
