@@ -1,0 +1,258 @@
+2020-08-30 22:38:31 0 [Warning] 'default-authentication-plugin' is MySQL 5.6 / 5.7 compatible option. To be implemented in later versions.
+2020-08-30 22:38:33 0 [Note] InnoDB: Using Linux native AIO
+2020-08-30 22:38:33 0 [Note] InnoDB: Uses event mutexes
+2020-08-30 22:38:33 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2020-08-30 22:38:33 0 [Note] InnoDB: Number of pools: 1
+2020-08-30 22:38:33 0 [Note] InnoDB: Using SSE4.2 crc32 instructions
+2020-08-30 22:38:33 0 [Note] mysqld: O_TMPFILE is not supported on /tmp (disabling future attempts)
+2020-08-30 22:38:33 0 [Note] InnoDB: Initializing buffer pool, total size = 134217728, chunk size = 134217728
+2020-08-30 22:38:33 0 [Note] InnoDB: Completed initialization of buffer pool
+2020-08-30 22:38:33 0 [Note] InnoDB: If the mysqld execution user is authorized, page cleaner thread priority can be changed. See the man page of setpriority().
+2020-08-30 22:38:33 0 [Note] InnoDB: 128 rollback segments are active.
+2020-08-30 22:38:33 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2020-08-30 22:38:33 0 [Note] InnoDB: Setting file './ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2020-08-30 22:38:33 0 [Note] InnoDB: File './ibtmp1' size is now 12 MB.
+2020-08-30 22:38:33 0 [Note] InnoDB: 10.5.5 started; log sequence number 45051; transaction id 21
+2020-08-30 22:38:33 0 [Note] Plugin 'FEEDBACK' is disabled.
+2020-08-30 22:38:33 0 [Note] InnoDB: Loading buffer pool(s) from /var/lib/mysql/ib_buffer_pool
+2020-08-30 22:38:33 0 [Warning] 'default-authentication-plugin' is MySQL 5.6 / 5.7 compatible option. To be implemented in later versions.
+2020-08-30 22:38:33 0 [Note] InnoDB: Buffer pool(s) load completed at 200830 22:38:33
+2020-08-30 22:38:33 0 [Warning] 'user' entry 'root@925d1cb3f18a' ignored in --skip-name-resolve mode.
+2020-08-30 22:38:33 0 [Warning] 'user' entry '@925d1cb3f18a' ignored in --skip-name-resolve mode.
+2020-08-30 22:38:33 0 [Warning] 'proxies_priv' entry '@% root@925d1cb3f18a' ignored in --skip-name-resolve mode.
+2020-08-30 22:38:33 0 [Note] Reading of all Master_info entries succeeded
+2020-08-30 22:38:33 0 [Note] Added new Master_info '' to hash table
+2020-08-30 22:38:33 0 [Note] mysqld: ready for connections.
+Version: '10.5.5-MariaDB-1:10.5.5+maria~focal-log'  socket: '/run/mysqld/mysqld.sock'  port: 0  mariadb.org binary distribution
+2020-08-30 22:38:37 5 [Warning] 'proxies_priv' entry '@% root@925d1cb3f18a' ignored in --skip-name-resolve mode.
+2020-08-30 22:38:37 0 [Note] mysqld (initiated by: root[root] @ localhost []): Normal shutdown
+2020-08-30 22:38:37 0 [Note] Event Scheduler: Purging the queue. 0 events
+2020-08-30 22:38:37 0 [Note] InnoDB: FTS optimize thread exiting.
+2020-08-30 22:38:37 0 [Note] InnoDB: Starting shutdown...
+2020-08-30 22:38:37 0 [Note] InnoDB: Dumping buffer pool(s) to /var/lib/mysql/ib_buffer_pool
+2020-08-30 22:38:37 0 [Note] InnoDB: Buffer pool(s) dump completed at 200830 22:38:37
+2020-08-30 22:38:38 0 [Note] InnoDB: Shutdown completed; log sequence number 45091; transaction id 24
+2020-08-30 22:38:38 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2020-08-30 22:38:38 0 [Note] mysqld: Shutdown complete
+
+2020-08-30 22:38:39 0 [Note] InnoDB: Using Linux native AIO
+2020-08-30 22:38:39 0 [Note] InnoDB: Uses event mutexes
+2020-08-30 22:38:39 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2020-08-30 22:38:39 0 [Note] InnoDB: Number of pools: 1
+2020-08-30 22:38:39 0 [Note] InnoDB: Using SSE4.2 crc32 instructions
+2020-08-30 22:38:39 0 [Note] mysqld: O_TMPFILE is not supported on /tmp (disabling future attempts)
+2020-08-30 22:38:39 0 [Note] InnoDB: Initializing buffer pool, total size = 134217728, chunk size = 134217728
+2020-08-30 22:38:39 0 [Note] InnoDB: Completed initialization of buffer pool
+2020-08-30 22:38:39 0 [Note] InnoDB: If the mysqld execution user is authorized, page cleaner thread priority can be changed. See the man page of setpriority().
+2020-08-30 22:38:39 0 [Note] InnoDB: 128 rollback segments are active.
+2020-08-30 22:38:39 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2020-08-30 22:38:39 0 [Note] InnoDB: Setting file './ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2020-08-30 22:38:39 0 [Note] InnoDB: File './ibtmp1' size is now 12 MB.
+2020-08-30 22:38:39 0 [Note] InnoDB: 10.5.5 started; log sequence number 45091; transaction id 21
+2020-08-30 22:38:39 0 [Note] Plugin 'FEEDBACK' is disabled.
+2020-08-30 22:38:39 0 [Note] InnoDB: Loading buffer pool(s) from /var/lib/mysql/ib_buffer_pool
+2020-08-30 22:38:39 0 [Note] InnoDB: Buffer pool(s) load completed at 200830 22:38:39
+2020-08-30 22:38:39 0 [Warning] 'default-authentication-plugin' is MySQL 5.6 / 5.7 compatible option. To be implemented in later versions.
+2020-08-30 22:38:39 0 [Note] Server socket created on IP: '::'.
+2020-08-30 22:38:39 0 [Warning] 'proxies_priv' entry '@% root@925d1cb3f18a' ignored in --skip-name-resolve mode.
+2020-08-30 22:38:39 0 [Note] Reading of all Master_info entries succeeded
+2020-08-30 22:38:39 0 [Note] Added new Master_info '' to hash table
+2020-08-30 22:38:39 0 [Note] mysqld: ready for connections.
+Version: '10.5.5-MariaDB-1:10.5.5+maria~focal-log'  socket: '/run/mysqld/mysqld.sock'  port: 3306  mariadb.org binary distribution
+2020-08-30 23:00:49 3 [Warning] Access denied for user 'root'@'localhost' (using password: NO)
+2020-08-30 23:19:55 0 [Note] mysqld (initiated by: unknown): Normal shutdown
+2020-08-30 23:19:55 0 [Note] Event Scheduler: Purging the queue. 0 events
+2020-08-30 23:19:55 0 [Note] InnoDB: FTS optimize thread exiting.
+2020-08-30 23:19:55 0 [Note] InnoDB: Starting shutdown...
+2020-08-30 23:19:55 0 [Note] InnoDB: Dumping buffer pool(s) to /var/lib/mysql/ib_buffer_pool
+2020-08-30 23:19:55 0 [Note] InnoDB: Buffer pool(s) dump completed at 200830 23:19:55
+2020-08-30 23:19:57 0 [Note] InnoDB: Shutdown completed; log sequence number 45103; transaction id 22
+2020-08-30 23:19:57 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2020-08-30 23:19:57 0 [Note] mysqld: Shutdown complete
+
+2020-08-30 23:19:58 0 [Note] InnoDB: Using Linux native AIO
+2020-08-30 23:19:58 0 [Note] InnoDB: Uses event mutexes
+2020-08-30 23:19:58 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2020-08-30 23:19:58 0 [Note] InnoDB: Number of pools: 1
+2020-08-30 23:19:58 0 [Note] InnoDB: Using SSE4.2 crc32 instructions
+2020-08-30 23:19:58 0 [Note] mysqld: O_TMPFILE is not supported on /tmp (disabling future attempts)
+2020-08-30 23:19:58 0 [Note] InnoDB: Initializing buffer pool, total size = 134217728, chunk size = 134217728
+2020-08-30 23:19:58 0 [Note] InnoDB: Completed initialization of buffer pool
+2020-08-30 23:19:58 0 [Note] InnoDB: If the mysqld execution user is authorized, page cleaner thread priority can be changed. See the man page of setpriority().
+2020-08-30 23:19:58 0 [Note] InnoDB: 128 rollback segments are active.
+2020-08-30 23:19:58 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2020-08-30 23:19:58 0 [Note] InnoDB: Setting file './ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2020-08-30 23:19:58 0 [Note] InnoDB: File './ibtmp1' size is now 12 MB.
+2020-08-30 23:19:58 0 [Note] InnoDB: 10.5.5 started; log sequence number 45103; transaction id 21
+2020-08-30 23:19:58 0 [Note] Plugin 'FEEDBACK' is disabled.
+2020-08-30 23:19:58 0 [Note] InnoDB: Loading buffer pool(s) from /var/lib/mysql/ib_buffer_pool
+2020-08-30 23:19:58 0 [Warning] 'default-authentication-plugin' is MySQL 5.6 / 5.7 compatible option. To be implemented in later versions.
+2020-08-30 23:19:58 0 [Note] Server socket created on IP: '::'.
+2020-08-30 23:19:58 0 [Note] InnoDB: Buffer pool(s) load completed at 200830 23:19:58
+2020-08-30 23:19:58 0 [Warning] 'proxies_priv' entry '@% root@925d1cb3f18a' ignored in --skip-name-resolve mode.
+2020-08-30 23:19:58 0 [Note] Reading of all Master_info entries succeeded
+2020-08-30 23:19:58 0 [Note] Added new Master_info '' to hash table
+2020-08-30 23:19:58 0 [Note] mysqld: ready for connections.
+Version: '10.5.5-MariaDB-1:10.5.5+maria~focal-log'  socket: '/run/mysqld/mysqld.sock'  port: 3306  mariadb.org binary distribution
+2020-08-31 14:15:57 0 [Note] mysqld (initiated by: unknown): Normal shutdown
+2020-08-31 14:15:57 0 [Note] Event Scheduler: Purging the queue. 0 events
+2020-08-31 14:15:57 0 [Note] InnoDB: FTS optimize thread exiting.
+2020-08-31 14:15:57 0 [Note] InnoDB: Starting shutdown...
+2020-08-31 14:15:57 0 [Note] InnoDB: Dumping buffer pool(s) to /var/lib/mysql/ib_buffer_pool
+2020-08-31 14:15:57 0 [Note] InnoDB: Buffer pool(s) dump completed at 200831 14:15:57
+2020-08-31 14:15:57 0 [Note] InnoDB: Shutdown completed; log sequence number 5393619; transaction id 6852
+2020-08-31 14:15:57 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2020-08-31 14:15:57 0 [Note] mysqld: Shutdown complete
+
+2020-08-31 14:16:01 0 [Note] InnoDB: Using Linux native AIO
+2020-08-31 14:16:01 0 [Note] InnoDB: Uses event mutexes
+2020-08-31 14:16:01 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2020-08-31 14:16:01 0 [Note] InnoDB: Number of pools: 1
+2020-08-31 14:16:01 0 [Note] InnoDB: Using SSE4.2 crc32 instructions
+2020-08-31 14:16:01 0 [Note] mysqld: O_TMPFILE is not supported on /tmp (disabling future attempts)
+2020-08-31 14:16:01 0 [Note] InnoDB: Initializing buffer pool, total size = 134217728, chunk size = 134217728
+2020-08-31 14:16:01 0 [Note] InnoDB: Completed initialization of buffer pool
+2020-08-31 14:16:01 0 [Note] InnoDB: If the mysqld execution user is authorized, page cleaner thread priority can be changed. See the man page of setpriority().
+2020-08-31 14:16:01 0 [Note] InnoDB: 128 rollback segments are active.
+2020-08-31 14:16:01 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2020-08-31 14:16:01 0 [Note] InnoDB: Setting file './ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2020-08-31 14:16:01 0 [Note] InnoDB: File './ibtmp1' size is now 12 MB.
+2020-08-31 14:16:01 0 [Note] InnoDB: 10.5.5 started; log sequence number 5393619; transaction id 6854
+2020-08-31 14:16:01 0 [Note] Plugin 'FEEDBACK' is disabled.
+2020-08-31 14:16:01 0 [Note] InnoDB: Loading buffer pool(s) from /var/lib/mysql/ib_buffer_pool
+2020-08-31 14:16:01 0 [Warning] 'default-authentication-plugin' is MySQL 5.6 / 5.7 compatible option. To be implemented in later versions.
+2020-08-31 14:16:01 0 [Note] Server socket created on IP: '::'.
+2020-08-31 14:16:01 0 [Warning] 'proxies_priv' entry '@% root@925d1cb3f18a' ignored in --skip-name-resolve mode.
+2020-08-31 14:16:01 0 [Note] InnoDB: Buffer pool(s) load completed at 200831 14:16:01
+2020-08-31 14:16:01 0 [Note] Reading of all Master_info entries succeeded
+2020-08-31 14:16:01 0 [Note] Added new Master_info '' to hash table
+2020-08-31 14:16:01 0 [Note] mysqld: ready for connections.
+Version: '10.5.5-MariaDB-1:10.5.5+maria~focal-log'  socket: '/run/mysqld/mysqld.sock'  port: 3306  mariadb.org binary distribution
+2020-09-03 13:55:30 0 [Note] mysqld (initiated by: unknown): Normal shutdown
+2020-09-03 13:55:30 0 [Note] Event Scheduler: Purging the queue. 0 events
+2020-09-03 13:55:30 0 [Note] InnoDB: FTS optimize thread exiting.
+2020-09-03 13:55:30 0 [Note] InnoDB: Starting shutdown...
+2020-09-03 13:55:30 0 [Note] InnoDB: Dumping buffer pool(s) to /var/lib/mysql/ib_buffer_pool
+2020-09-03 13:55:30 0 [Note] InnoDB: Buffer pool(s) dump completed at 200903 13:55:30
+2020-09-03 13:55:31 0 [Note] InnoDB: Shutdown completed; log sequence number 45103; transaction id 22
+2020-09-03 13:55:31 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2020-09-03 13:55:31 0 [Note] mysqld: Shutdown complete
+
+2020-09-03 13:58:08 0 [Note] InnoDB: Using Linux native AIO
+2020-09-03 13:58:08 0 [Note] InnoDB: Uses event mutexes
+2020-09-03 13:58:08 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2020-09-03 13:58:08 0 [Note] InnoDB: Number of pools: 1
+2020-09-03 13:58:08 0 [Note] InnoDB: Using SSE4.2 crc32 instructions
+2020-09-03 13:58:08 0 [Note] mysqld: O_TMPFILE is not supported on /tmp (disabling future attempts)
+2020-09-03 13:58:08 0 [Note] InnoDB: Initializing buffer pool, total size = 134217728, chunk size = 134217728
+2020-09-03 13:58:08 0 [Note] InnoDB: Completed initialization of buffer pool
+2020-09-03 13:58:08 0 [Note] InnoDB: If the mysqld execution user is authorized, page cleaner thread priority can be changed. See the man page of setpriority().
+2020-09-03 13:58:08 0 [Note] InnoDB: Starting crash recovery from checkpoint LSN=6355307
+2020-09-03 13:58:08 0 [Note] InnoDB: 128 rollback segments are active.
+2020-09-03 13:58:08 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2020-09-03 13:58:08 0 [Note] InnoDB: Setting file './ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2020-09-03 13:58:08 0 [Note] InnoDB: File './ibtmp1' size is now 12 MB.
+2020-09-03 13:58:08 0 [Note] InnoDB: 10.5.5 started; log sequence number 6355331; transaction id 7500
+2020-09-03 13:58:08 0 [Note] InnoDB: Loading buffer pool(s) from /var/lib/mysql/ib_buffer_pool
+2020-09-03 13:58:08 0 [Note] Plugin 'FEEDBACK' is disabled.
+2020-09-03 13:58:08 0 [Warning] 'default-authentication-plugin' is MySQL 5.6 / 5.7 compatible option. To be implemented in later versions.
+2020-09-03 13:58:08 0 [Note] InnoDB: Buffer pool(s) load completed at 200903 13:58:08
+2020-09-03 13:58:08 0 [Note] Server socket created on IP: '::'.
+2020-09-03 13:58:08 0 [Warning] 'proxies_priv' entry '@% root@925d1cb3f18a' ignored in --skip-name-resolve mode.
+2020-09-03 13:58:08 0 [Note] Reading of all Master_info entries succeeded
+2020-09-03 13:58:08 0 [Note] Added new Master_info '' to hash table
+2020-09-03 13:58:08 0 [Note] mysqld: ready for connections.
+Version: '10.5.5-MariaDB-1:10.5.5+maria~focal-log'  socket: '/run/mysqld/mysqld.sock'  port: 3306  mariadb.org binary distribution
+2020-09-03 15:36:26 3 [Warning] Aborted connection 3 to db: 'unconnected' user: 'unauthenticated' host: '47.94.52.159' (This connection closed normally without authentication)
+2020-09-03 15:44:39 4 [Warning] Aborted connection 4 to db: 'unconnected' user: 'unauthenticated' host: '106.15.76.85' (This connection closed normally without authentication)
+2020-09-03 16:53:53 5 [Warning] Aborted connection 5 to db: 'unconnected' user: 'unauthenticated' host: '47.97.16.76' (This connection closed normally without authentication)
+2020-09-03 16:55:02 6 [Warning] Aborted connection 6 to db: 'unconnected' user: 'unauthenticated' host: '47.97.10.19' (This connection closed normally without authentication)
+2020-09-03 17:29:55 7 [Warning] Aborted connection 7 to db: 'unconnected' user: 'unauthenticated' host: '47.97.16.76' (This connection closed normally without authentication)
+2020-09-03 21:26:23 236 [Warning] Aborted connection 236 to db: 'unconnected' user: 'unauthenticated' host: '106.15.52.246' (This connection closed normally without authentication)
+2020-09-03 22:49:38 359 [Warning] Aborted connection 359 to db: 'unconnected' user: 'unauthenticated' host: '47.97.16.76' (This connection closed normally without authentication)
+2020-09-04  3:14:42 653 [Warning] Aborted connection 653 to db: 'unconnected' user: 'unauthenticated' host: '139.162.108.129' (This connection closed normally without authentication)
+2020-09-04  4:50:39 660 [Warning] Aborted connection 660 to db: 'unconnected' user: 'unauthenticated' host: '167.248.133.35' (This connection closed normally without authentication)
+2020-09-04  6:34:16 664 [Warning] Aborted connection 664 to db: 'unconnected' user: 'unauthenticated' host: '106.14.104.214' (This connection closed normally without authentication)
+2020-09-04 11:28:12 1167 [Warning] Aborted connection 1167 to db: 'unconnected' user: 'unauthenticated' host: '39.107.14.208' (This connection closed normally without authentication)
+2020-09-04 11:30:17 1184 [Warning] Aborted connection 1184 to db: 'unconnected' user: 'unauthenticated' host: '119.23.138.247' (This connection closed normally without authentication)
+2020-09-04 11:43:54 0 [Note] mysqld (initiated by: unknown): Normal shutdown
+2020-09-04 11:43:54 0 [Note] Event Scheduler: Purging the queue. 0 events
+2020-09-04 11:43:54 0 [Note] InnoDB: FTS optimize thread exiting.
+2020-09-04 11:43:54 0 [Note] InnoDB: Starting shutdown...
+2020-09-04 11:43:54 0 [Note] InnoDB: Dumping buffer pool(s) to /var/lib/mysql/ib_buffer_pool
+2020-09-04 11:43:54 0 [Note] InnoDB: Buffer pool(s) dump completed at 200904 11:43:54
+2020-09-04 11:43:55 0 [Note] InnoDB: Shutdown completed; log sequence number 9048768; transaction id 10723
+2020-09-04 11:43:55 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2020-09-04 11:43:55 0 [Note] mysqld: Shutdown complete
+
+2020-09-04 11:44:50 0 [Note] InnoDB: Using Linux native AIO
+2020-09-04 11:44:50 0 [Note] InnoDB: Uses event mutexes
+2020-09-04 11:44:50 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2020-09-04 11:44:50 0 [Note] InnoDB: Number of pools: 1
+2020-09-04 11:44:50 0 [Note] InnoDB: Using SSE4.2 crc32 instructions
+2020-09-04 11:44:50 0 [Note] mysqld: O_TMPFILE is not supported on /tmp (disabling future attempts)
+2020-09-04 11:44:50 0 [Note] InnoDB: Initializing buffer pool, total size = 134217728, chunk size = 134217728
+2020-09-04 11:44:50 0 [Note] InnoDB: Completed initialization of buffer pool
+2020-09-04 11:44:50 0 [Note] InnoDB: If the mysqld execution user is authorized, page cleaner thread priority can be changed. See the man page of setpriority().
+2020-09-04 11:44:50 0 [Note] InnoDB: 128 rollback segments are active.
+2020-09-04 11:44:50 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2020-09-04 11:44:50 0 [Note] InnoDB: Setting file './ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2020-09-04 11:44:50 0 [Note] InnoDB: File './ibtmp1' size is now 12 MB.
+2020-09-04 11:44:50 0 [Note] InnoDB: 10.5.5 started; log sequence number 9048768; transaction id 10725
+2020-09-04 11:44:50 0 [Note] InnoDB: Loading buffer pool(s) from /var/lib/mysql/ib_buffer_pool
+2020-09-04 11:44:50 0 [Note] Plugin 'FEEDBACK' is disabled.
+2020-09-04 11:44:50 0 [Warning] 'default-authentication-plugin' is MySQL 5.6 / 5.7 compatible option. To be implemented in later versions.
+2020-09-04 11:44:50 0 [Note] Server socket created on IP: '::'.
+2020-09-04 11:44:50 0 [Warning] 'proxies_priv' entry '@% root@925d1cb3f18a' ignored in --skip-name-resolve mode.
+2020-09-04 11:44:50 0 [Note] InnoDB: Buffer pool(s) load completed at 200904 11:44:50
+2020-09-04 11:44:50 0 [Note] Reading of all Master_info entries succeeded
+2020-09-04 11:44:50 0 [Note] Added new Master_info '' to hash table
+2020-09-04 11:44:50 0 [Note] mysqld: ready for connections.
+Version: '10.5.5-MariaDB-1:10.5.5+maria~focal-log'  socket: '/run/mysqld/mysqld.sock'  port: 3306  mariadb.org binary distribution
+2020-09-04 12:40:21 174 [Warning] Aborted connection 174 to db: 'unconnected' user: 'unauthenticated' host: '162.142.125.50' (This connection closed normally without authentication)
+2020-09-04 17:28:30 906 [Warning] Aborted connection 906 to db: 'unconnected' user: 'unauthenticated' host: '39.107.14.208' (This connection closed normally without authentication)
+2020-09-04 17:38:19 936 [Warning] Aborted connection 936 to db: 'unconnected' user: 'unauthenticated' host: '74.120.14.36' (This connection closed normally without authentication)
+2020-09-04 18:22:49 7901 [Warning] Aborted connection 7901 to db: 'unconnected' user: 'unauthenticated' host: '106.14.104.214' (This connection closed normally without authentication)
+2020-09-04 21:21:34 8020 [Warning] Aborted connection 8020 to db: 'unconnected' user: 'unauthenticated' host: '106.14.104.214' (This connection closed normally without authentication)
+2020-09-04 22:00:03 8034 [Warning] Aborted connection 8034 to db: 'unconnected' user: 'unauthenticated' host: '119.23.139.140' (This connection closed normally without authentication)
+2020-09-05  0:52:50 8100 [Warning] Aborted connection 8100 to db: 'unconnected' user: 'unauthenticated' host: '47.97.10.19' (This connection closed normally without authentication)
+2020-09-05  1:43:36 8109 [Warning] Aborted connection 8109 to db: 'unconnected' user: 'unauthenticated' host: '47.100.130.114' (This connection closed normally without authentication)
+2020-09-05  3:15:35 8120 [Warning] Aborted connection 8120 to db: 'unconnected' user: 'unauthenticated' host: '192.35.168.219' (This connection closed normally without authentication)
+2020-09-05  8:47:59 8175 [Warning] Aborted connection 8175 to db: 'unconnected' user: 'unauthenticated' host: '211.95.50.5' (This connection closed normally without authentication)
+2020-09-05 10:27:59 8211 [Warning] Aborted connection 8211 to db: 'unconnected' user: 'unauthenticated' host: '106.15.76.92' (This connection closed normally without authentication)
+2020-09-05 10:56:42 8220 [Warning] Aborted connection 8220 to db: 'unconnected' user: 'unauthenticated' host: '122.224.129.237' (This connection closed normally without authentication)
+2020-09-05 12:30:23 8235 [Warning] Aborted connection 8235 to db: 'unconnected' user: 'unauthenticated' host: '47.100.130.114' (This connection closed normally without authentication)
+2020-09-05 12:57:17 0 [Note] mysqld (initiated by: unknown): Normal shutdown
+2020-09-05 12:57:17 0 [Note] Event Scheduler: Purging the queue. 0 events
+2020-09-05 12:57:17 0 [Note] InnoDB: FTS optimize thread exiting.
+2020-09-05 12:57:17 0 [Note] InnoDB: Starting shutdown...
+2020-09-05 12:57:17 0 [Note] InnoDB: Dumping buffer pool(s) to /var/lib/mysql/ib_buffer_pool
+2020-09-05 12:57:17 0 [Note] InnoDB: Buffer pool(s) dump completed at 200905 12:57:17
+2020-09-05 12:57:18 0 [Note] InnoDB: Shutdown completed; log sequence number 14281280; transaction id 14415
+2020-09-05 12:57:18 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2020-09-05 12:57:18 0 [Note] mysqld: Shutdown complete
+
+2020-09-05 12:57:20 0 [Note] InnoDB: Using Linux native AIO
+2020-09-05 12:57:20 0 [Note] InnoDB: Uses event mutexes
+2020-09-05 12:57:20 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2020-09-05 12:57:20 0 [Note] InnoDB: Number of pools: 1
+2020-09-05 12:57:20 0 [Note] InnoDB: Using SSE4.2 crc32 instructions
+2020-09-05 12:57:20 0 [Note] mysqld: O_TMPFILE is not supported on /tmp (disabling future attempts)
+2020-09-05 12:57:20 0 [Note] InnoDB: Initializing buffer pool, total size = 134217728, chunk size = 134217728
+2020-09-05 12:57:20 0 [Note] InnoDB: Completed initialization of buffer pool
+2020-09-05 12:57:20 0 [Note] InnoDB: If the mysqld execution user is authorized, page cleaner thread priority can be changed. See the man page of setpriority().
+2020-09-05 12:57:20 0 [Note] InnoDB: 128 rollback segments are active.
+2020-09-05 12:57:20 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2020-09-05 12:57:20 0 [Note] InnoDB: Setting file './ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2020-09-05 12:57:20 0 [Note] InnoDB: File './ibtmp1' size is now 12 MB.
+2020-09-05 12:57:20 0 [Note] InnoDB: 10.5.5 started; log sequence number 14281280; transaction id 14417
+2020-09-05 12:57:20 0 [Note] Plugin 'FEEDBACK' is disabled.
+2020-09-05 12:57:20 0 [Note] InnoDB: Loading buffer pool(s) from /var/lib/mysql/ib_buffer_pool
+2020-09-05 12:57:20 0 [Warning] 'default-authentication-plugin' is MySQL 5.6 / 5.7 compatible option. To be implemented in later versions.
+2020-09-05 12:57:20 0 [Note] Server socket created on IP: '::'.
+2020-09-05 12:57:20 0 [Note] InnoDB: Buffer pool(s) load completed at 200905 12:57:20
+2020-09-05 12:57:20 0 [Warning] 'proxies_priv' entry '@% root@925d1cb3f18a' ignored in --skip-name-resolve mode.
+2020-09-05 12:57:20 0 [Note] Reading of all Master_info entries succeeded
+2020-09-05 12:57:20 0 [Note] Added new Master_info '' to hash table
+2020-09-05 12:57:20 0 [Note] mysqld: ready for connections.
+Version: '10.5.5-MariaDB-1:10.5.5+maria~focal-log'  socket: '/run/mysqld/mysqld.sock'  port: 3306  mariadb.org binary distribution

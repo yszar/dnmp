@@ -1,20 +1,28 @@
-ARG NGINX_VERSION
-FROM ${NGINX_VERSION}
+FROM debian:buster-slim
 
-ARG TZ
-ARG NGINX_VERSION
-ARG CONTAINER_PACKAGE_URL
-ARG NGINX_INSTALL_APPS
+LABEL maintainer="jiuyang yszar@vip.qq.com"
 
-ENV INSTALL_APPS=",${NGINX_INSTALL_APPS},"
+ENV NGINX_VERSION   1.19.1
+workdir /opt
 
-RUN if [ "${CONTAINER_PACKAGE_URL}" != "" ]; then \
-        sed -i "s/dl-cdn.alpinelinux.org/${CONTAINER_PACKAGE_URL}/g" /etc/apk/repositories; \
-    fi
 
-RUN if [ -z "${INSTALL_APPS##*,certbot,*}" ]; then \
-        echo "---------- Install certbot ----------"; \
-        apk add --no-cache certbot; \
-    fi
+RUN apt-get update \
+   && apt-get install git wget unzip gcc make openssl libssl-dev libpcre3 libpcre3-dev zlib1g-dev net-tools patch -y\
+   && wget http://nginx.org/download/nginx-${NGINX_VERSION}.tar.gz \
+   && git clone https://github.com/FRiCKLE/ngx_cache_purge.git \
+   && tar -xvf  nginx-${NGINX_VERSION}.tar.gz \
+   && cd nginx-${NGINX_VERSION} \
+   && ./configure --prefix=/etc/nginx --sbin-path=/usr/sbin/nginx --modules-path=/usr/lib/nginx/modules --conf-path=/etc/nginx/nginx.conf --error-log-path=/var/log/nginx/error.log --http-log-path=/var/log/nginx/access.log --pid-path=/var/run/nginx.pid --lock-path=/var/run/nginx.lock --http-client-body-temp-path=/var/cache/nginx/client_temp --http-proxy-temp-path=/var/cache/nginx/proxy_temp --http-fastcgi-temp-path=/var/cache/nginx/fastcgi_temp --http-uwsgi-temp-path=/var/cache/nginx/uwsgi_temp --http-scgi-temp-path=/var/cache/nginx/scgi_temp --with-perl_modules_path=/usr/lib/perl5/vendor_perl --user=nginx --group=nginx --with-compat --with-file-aio --with-threads --with-http_addition_module --with-http_auth_request_module --with-http_dav_module --with-http_flv_module --with-http_gunzip_module --with-http_gzip_static_module --with-http_mp4_module --with-http_random_index_module --with-http_realip_module --with-http_secure_link_module --with-http_slice_module --with-http_ssl_module --with-http_stub_status_module --with-http_sub_module --with-http_v2_module --with-mail --with-mail_ssl_module --with-stream --with-stream_realip_module --with-stream_ssl_module --with-stream_ssl_preread_module --with-cc-opt='-Os -fomit-frame-pointer' --with-ld-opt=-Wl,--as-needed --add-module=../ngx_cache_purge/ \
+  && rm -rf /opt/* \
+  && apt-get remove --purge -y git wget unzip gcc make patch \
+  && apt-get autoremove -y \
+  && apt-get clean \
+  && rm -rf /var/lib/apt/lists/* \
+  && useradd nginx
 
-WORKDIR /www
+run  ln -sf /usr/share/zoneinfo/Asia/Shanghai /etc/localtime \
+ && echo 'Asia/Shanghai' >/etc/timezone
+
+expose 80
+
+CMD ["/usr/sbin/nginx", "-c", "/etc/nginx/nginx.conf", "-g", "daemon off;"]
